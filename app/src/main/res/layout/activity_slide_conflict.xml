@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    tools:context="demo.slideconflict.com.slideconflictdemo.SlideConflict">
+
+    <demo.slideconflict.com.slideconflictdemo.view.SlideLinearLayout
+       android:id="@+id/sdL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:background="#ff6600"
+        >
+
+
+        <demo.slideconflict.com.slideconflictdemo.view.ScrollViewIntercept
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#ff5599"
+                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#ee5599"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#dd5599"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#cc5599"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#bb5599"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#aa5599"
+                    />
+            </LinearLayout>
+        </demo.slideconflict.com.slideconflictdemo.view.ScrollViewIntercept>
+    </demo.slideconflict.com.slideconflictdemo.view.SlideLinearLayout>
+
+
+</RelativeLayout>
